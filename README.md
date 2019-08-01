@@ -14,7 +14,7 @@ This model is then enriched with a generic Word2Vec model based on a Google News
 
 The resulted ranking of a search is based on the cosine similarity between the query and the different job descriptions scored with the word embedding model (300 dim vector).
 
-The TSNE dimension reduction method allows to visualise the job descritions in a 3D space. 
+The TSNE dimension reduction method allows to visualise the job descriptions in a 3D space. 
 
 ![SegmentLocal](tensorboard.gif "segment")
 
